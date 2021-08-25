@@ -9,7 +9,7 @@ class Base:
 class Derivative(Base):
     def __init__(self):
         super().__init__(20)
-        # Base.__init__(self, 20) wrong way of getting data from parent class.
+        # Base.__init__(self, 20) another way of getting data from parent class.
         # Or in case there is many parents could be applied.
         self.name = ''
 
